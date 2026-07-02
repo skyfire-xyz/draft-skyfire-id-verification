@@ -130,8 +130,8 @@ dig:
 phy:
 : Physical ID Document verification (for example via a real time capture of the front and back of DL or Passport photo page)
 
-oth:
-: Other Document verification (for example via bank statements, financial statements, government issued papers, etc.)
+sec:
+: Secondary Document verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)
 
 
 # Security Considerations
@@ -263,10 +263,10 @@ Specification Document(s):
 * Change Controller: IETF
 * Reference: (#ivmValues) of this specification
 
-#### "oth" Method
+#### "sec" Method
 
-* Identity Verification Method Name: oth
-* Identity Verification Method Description: Other Document verification
+* Identity Verification Method Name: sec
+* Identity Verification Method Description: Secondary Document verification
 * Change Controller: IETF
 * Reference: (#ivmValues) of this specification
 
