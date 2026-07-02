@@ -23,7 +23,7 @@ venue:
 #  type: Working Group
 #  mail: WG@example.com
 #  arch: https://example.com/WG
-  latest: "https://skyfire-xyz.github.io/kyapay-ietf-draft/draft-skyfire-id-verification.html"
+  latest: "https://skyfire-xyz.github.io/draft-skyfire-id-verification/draft-skyfire-id-verification.html"
 
 author:
 -
