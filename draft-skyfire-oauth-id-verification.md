@@ -96,11 +96,11 @@ one use case for them is use in KYAPay tokens {{?I-D.skyfire-kyapayprofile}}.
 This section defines the "ivm" (Identity Verification Methods claim and
 values used with it to indicate that particular identity verification methods
 were used.
-In may ways, this parallels the "amr" (Authentication Methods References) claim
+In many ways, this parallels the "amr" (Authentication Methods References) claim
 defined in {{OpenID.Core}}.
 Like "amr", "ivm" is a JWT claim whose value is
 an array that lists a set of methods that were used,
-in this case, identity verification methods,
+in this case, as identity verification methods,
 rather than authentication method references.
 
 ## "ivm" (Identity Verification Methods) Claim {#ivmClaim}
