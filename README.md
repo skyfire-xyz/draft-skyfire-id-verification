@@ -4,16 +4,16 @@
 
 This is the working area for the individual Internet-Draft, "Identity Verification Methods Values".
 
-* [Editor's Copy](https://skyfire-xyz.github.io/draft-skyfire-id-verification/#go.draft-skyfire-id-verification.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-skyfire-id-verification)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-skyfire-id-verification)
-* [Compare Editor's Copy to Individual Draft](https://skyfire-xyz.github.io/draft-skyfire-id-verification/#go.draft-skyfire-id-verification.diff)
+* [Editor's Copy](https://skyfire-xyz.github.io/draft-skyfire-oauth-id-verification/#go.draft-skyfire-oauth-id-verification.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-skyfire-oauth-id-verification)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-skyfire-oauth-id-verification)
+* [Compare Editor's Copy to Individual Draft](https://skyfire-xyz.github.io/draft-skyfire-oauth-id-verification/#go.draft-skyfire-oauth-id-verification.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/skyfire-xyz/draft-skyfire-id-verification/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/skyfire-xyz/draft-skyfire-oauth-id-verification/blob/main/CONTRIBUTING.md).
 
 The contributing file also has tips on how to make contributions, if you
 don't already know how to do that.

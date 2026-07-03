@@ -3,7 +3,7 @@ title: "Identity Verification Methods Values"
 #abbrev: ""
 category: std
 
-docname: draft-skyfire-id-verification-latest
+docname: draft-skyfire-oauth-id-verification-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 #number:
 date:
@@ -18,12 +18,12 @@ keyword:
  - payment
  - commerce
 venue:
-  github: "skyfire-xyz/draft-skyfire-id-verification"
+  github: "skyfire-xyz/draft-skyfire-oauth-id-verification"
 #  group: WG
 #  type: Working Group
 #  mail: WG@example.com
 #  arch: https://example.com/WG
-  latest: "https://skyfire-xyz.github.io/draft-skyfire-id-verification/draft-skyfire-id-verification.html"
+  latest: "https://skyfire-xyz.github.io/draft-skyfire-oauth-id-verification/draft-skyfire-oauth-id-verification.html"
 
 author:
 -
