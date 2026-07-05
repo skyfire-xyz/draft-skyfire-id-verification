@@ -5,8 +5,8 @@
 Network Working Group                                         A. Agarwal
 Internet-Draft                                      Skyfire Systems Inc.
 Intended status: Standards Track                                M. Jones
-Expires: 4 January 2027                           Self-Issued Consulting
-                                                             3 July 2026
+Expires: 6 January 2027                           Self-Issued Consulting
+                                                             5 July 2026
 
 
                   Identity Verification Methods Values
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2027.
+   This Internet-Draft will expire on 6 January 2027.
 
 Copyright Notice
 
@@ -94,7 +94,7 @@ Table of Contents
 
    While this claim and values are general purpose and can be used in
    any JSON Web Token (JWT) [RFC7519], one use case for them is use in
-   KYAPay tokens [I-D.skyfire-kyapayprofile].
+   KYAPay tokens [I-D.skyfire-oauth-kyapay-token].
 
 2.  Conventions and Definitions
 
@@ -311,11 +311,12 @@ Table of Contents
 
 7.2.  Informative References
 
-   [I-D.skyfire-kyapayprofile]
-              Agarwal, A. and M. B. Jones, "KYAPay Profile", Work in
-              Progress, Internet-Draft, draft-skyfire-kyapayprofile-02,
-              20 June 2026, <https://datatracker.ietf.org/doc/html/
-              draft-skyfire-kyapayprofile-02>.
+   [I-D.skyfire-oauth-kyapay-token]
+              Agarwal, A. and M. B. Jones, "KYAPay Token", Work in
+              Progress, Internet-Draft, draft-skyfire-oauth-kyapay-
+              token-00, 5 July 2026,
+              <https://datatracker.ietf.org/doc/html/draft-skyfire-
+              oauth-kyapay-token-00>.
 
    [IANA.AMR] IANA, "Authentication Method Reference Values", n.d.,
               <https://www.iana.org/assignments/authentication-method-
