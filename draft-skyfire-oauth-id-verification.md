@@ -118,20 +118,28 @@ any unregistered values used, which may be context specific.
 
 ## Identity Verification Method Values {#ivmValues}
 
-The following is a list of Identity Verification Method values
-defined by this specification:
+The following Identity Verification Method values
+are defined by this specification.
+
+### "dbv" (Database Verification of PII) Method {#dbvMethod}
 
 dbv:
-: Database verification of PII (match of name/address/dob/ssn/nid etc. in consumer reporting data sources)
+: Database Verification of PII (match of name/address/dob/ssn/nid etc. in consumer reporting data sources)
+
+### "dig" (Digital ID Document Verification) Method {#digMethod}
 
 dig:
-: Digital ID Document verification (for example Mobile Driver's Licenses)
+: Digital ID Document Verification (for example Mobile Driver's Licenses)
+
+### "phy" (Physical ID Document Verification) Method {#phyMethod}
 
 phy:
-: Physical ID Document verification (for example via a real time capture of the front and back of DL or Passport photo page)
+: Physical ID Document Verification (for example via a real time capture of the front and back of DL or Passport photo page)
+
+### "sec" (Secondary Document Verification) Method {#secMethod}
 
 sec:
-: Secondary Document verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)
+: Secondary Document Verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)
 
 
 # Security Considerations
@@ -245,30 +253,30 @@ Specification Document(s):
 #### "dbv" Method
 
 * Identity Verification Method Name: dbv
-* Identity Verification Method Description: Digital ID Document verification
+* Identity Verification Method Description: Database Verification of PII
 * Change Controller: IETF
-* Reference: (#ivmValues) of this specification
+* Reference: (#dbvMethod) of this specification
 
 #### "dig" Method
 
 * Identity Verification Method Name: dig
-* Identity Verification Method Description: Digital ID Document verification
+* Identity Verification Method Description: Digital ID Document Verification
 * Change Controller: IETF
-* Reference: (#ivmValues) of this specification
+* Reference: (#digMethod) of this specification
 
 #### "phy" Method
 
 * Identity Verification Method Name: phy
-* Identity Verification Method Description: Physical ID Document verification
+* Identity Verification Method Description: Physical ID Document Verification
 * Change Controller: IETF
-* Reference: (#ivmValues) of this specification
+* Reference: (#phyMethod) of this specification
 
 #### "sec" Method
 
 * Identity Verification Method Name: sec
-* Identity Verification Method Description: Secondary Document verification
+* Identity Verification Method Description: Secondary Document Verification
 * Change Controller: IETF
-* Reference: (#ivmValues) of this specification
+* Reference: (#secMethod) of this specification
 
 
 --- back
