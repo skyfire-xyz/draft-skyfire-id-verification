@@ -1180,13 +1180,19 @@ This specification defines a claim and values for declaring how the person's ide
                     <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="auto internal xref">3.2.1</a>.  <a href="#name-dbv-database-verification-o" class="internal xref">"dbv" (Database Verification of PII) Method</a></p>
 </li>
                   <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.2">
-                    <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="auto internal xref">3.2.2</a>.  <a href="#name-dig-digital-id-document-ver" class="internal xref">"dig" (Digital ID Document Verification) Method</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="auto internal xref">3.2.2</a>.  <a href="#name-dbv1-database-verification-" class="internal xref">"dbv1" (Database Verification of PII One Source) Method</a></p>
 </li>
                   <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.3">
-                    <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="auto internal xref">3.2.3</a>.  <a href="#name-phy-physical-id-document-ve" class="internal xref">"phy" (Physical ID Document Verification) Method</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="auto internal xref">3.2.3</a>.  <a href="#name-dbvm-database-verification-" class="internal xref">"dbvm" (Database Verification of PII Multiple Sources) Method</a></p>
 </li>
                   <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.4">
-                    <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="auto internal xref">3.2.4</a>.  <a href="#name-sec-secondary-document-veri" class="internal xref">"sec" (Secondary Document Verification) Method</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="auto internal xref">3.2.4</a>.  <a href="#name-dig-digital-id-document-ver" class="internal xref">"dig" (Digital ID Document Verification) Method</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.5">
+                    <p id="section-toc.1-1.3.2.2.2.5.1"><a href="#section-3.2.5" class="auto internal xref">3.2.5</a>.  <a href="#name-phy-physical-id-document-ve" class="internal xref">"phy" (Physical ID Document Verification) Method</a></p>
+</li>
+                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3.2.2.2.6">
+                    <p id="section-toc.1-1.3.2.2.2.6.1"><a href="#section-3.2.6" class="auto internal xref">3.2.6</a>.  <a href="#name-sec-secondary-document-veri" class="internal xref">"sec" (Secondary Document Verification) Method</a></p>
 </li>
                 </ul>
 </li>
@@ -1315,49 +1321,80 @@ are defined by this specification.<a href="#section-3.2-1" class="pilcrow">¶</a
 <span class="break"></span><dl class="dlParallel" id="section-3.2.1-1">
             <dt id="section-3.2.1-1.1">dbv:</dt>
             <dd style="margin-left: 1.5em" id="section-3.2.1-1.2">
-              <p id="section-3.2.1-1.2.1">Database Verification of PII (match of name/address/dob/ssn/nid etc. in consumer reporting data sources)<a href="#section-3.2.1-1.2.1" class="pilcrow">¶</a></p>
+              <p id="section-3.2.1-1.2.1">Database Verification of PII (match of name/address/dob/ssn/nid, etc.)
+using an unspecified number of consumer reporting data sources<a href="#section-3.2.1-1.2.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+</dl>
+</section>
+</div>
+<div id="dbv1Method">
+<section id="section-3.2.2">
+          <h4 id="name-dbv1-database-verification-">
+<a href="#section-3.2.2" class="section-number selfRef">3.2.2. </a><a href="#name-dbv1-database-verification-" class="section-name selfRef">"dbv1" (Database Verification of PII One Source) Method</a>
+          </h4>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.2-1">
+            <dt id="section-3.2.2-1.1">dbv1:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.2-1.2">
+              <p id="section-3.2.2-1.2.1">Database Verification of PII (match of name/address/dob/ssn/nid, etc.)
+using one consumer reporting data source<a href="#section-3.2.2-1.2.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+</dl>
+</section>
+</div>
+<div id="dbvmMethod">
+<section id="section-3.2.3">
+          <h4 id="name-dbvm-database-verification-">
+<a href="#section-3.2.3" class="section-number selfRef">3.2.3. </a><a href="#name-dbvm-database-verification-" class="section-name selfRef">"dbvm" (Database Verification of PII Multiple Sources) Method</a>
+          </h4>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.3-1">
+            <dt id="section-3.2.3-1.1">dbvm:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.3-1.2">
+              <p id="section-3.2.3-1.2.1">Database Verification of PII (match of name/address/dob/ssn/nid, etc.)
+using Multiple consumer reporting data sources<a href="#section-3.2.3-1.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 </dl>
 </section>
 </div>
 <div id="digMethod">
-<section id="section-3.2.2">
+<section id="section-3.2.4">
           <h4 id="name-dig-digital-id-document-ver">
-<a href="#section-3.2.2" class="section-number selfRef">3.2.2. </a><a href="#name-dig-digital-id-document-ver" class="section-name selfRef">"dig" (Digital ID Document Verification) Method</a>
+<a href="#section-3.2.4" class="section-number selfRef">3.2.4. </a><a href="#name-dig-digital-id-document-ver" class="section-name selfRef">"dig" (Digital ID Document Verification) Method</a>
           </h4>
-<span class="break"></span><dl class="dlParallel" id="section-3.2.2-1">
-            <dt id="section-3.2.2-1.1">dig:</dt>
-            <dd style="margin-left: 1.5em" id="section-3.2.2-1.2">
-              <p id="section-3.2.2-1.2.1">Digital ID Document Verification (for example Mobile Driver's Licenses)<a href="#section-3.2.2-1.2.1" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.4-1">
+            <dt id="section-3.2.4-1.1">dig:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.4-1.2">
+              <p id="section-3.2.4-1.2.1">Digital ID Document Verification (for example Mobile Driver's Licenses)<a href="#section-3.2.4-1.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 </dl>
 </section>
 </div>
 <div id="phyMethod">
-<section id="section-3.2.3">
+<section id="section-3.2.5">
           <h4 id="name-phy-physical-id-document-ve">
-<a href="#section-3.2.3" class="section-number selfRef">3.2.3. </a><a href="#name-phy-physical-id-document-ve" class="section-name selfRef">"phy" (Physical ID Document Verification) Method</a>
+<a href="#section-3.2.5" class="section-number selfRef">3.2.5. </a><a href="#name-phy-physical-id-document-ve" class="section-name selfRef">"phy" (Physical ID Document Verification) Method</a>
           </h4>
-<span class="break"></span><dl class="dlParallel" id="section-3.2.3-1">
-            <dt id="section-3.2.3-1.1">phy:</dt>
-            <dd style="margin-left: 1.5em" id="section-3.2.3-1.2">
-              <p id="section-3.2.3-1.2.1">Physical ID Document Verification (for example via a real time capture of the front and back of DL or Passport photo page)<a href="#section-3.2.3-1.2.1" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.5-1">
+            <dt id="section-3.2.5-1.1">phy:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.5-1.2">
+              <p id="section-3.2.5-1.2.1">Physical ID Document Verification (for example via a real time capture of the front and back of DL or Passport photo page)<a href="#section-3.2.5-1.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 </dl>
 </section>
 </div>
 <div id="secMethod">
-<section id="section-3.2.4">
+<section id="section-3.2.6">
           <h4 id="name-sec-secondary-document-veri">
-<a href="#section-3.2.4" class="section-number selfRef">3.2.4. </a><a href="#name-sec-secondary-document-veri" class="section-name selfRef">"sec" (Secondary Document Verification) Method</a>
+<a href="#section-3.2.6" class="section-number selfRef">3.2.6. </a><a href="#name-sec-secondary-document-veri" class="section-name selfRef">"sec" (Secondary Document Verification) Method</a>
           </h4>
-<span class="break"></span><dl class="dlParallel" id="section-3.2.4-1">
-            <dt id="section-3.2.4-1.1">sec:</dt>
-            <dd style="margin-left: 1.5em" id="section-3.2.4-1.2">
-              <p id="section-3.2.4-1.2.1">Secondary Document Verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)<a href="#section-3.2.4-1.2.1" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-3.2.6-1">
+            <dt id="section-3.2.6-1.1">sec:</dt>
+            <dd style="margin-left: 1.5em" id="section-3.2.6-1.2">
+              <p id="section-3.2.6-1.2.1">Secondary Document Verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)<a href="#section-3.2.6-1.2.1" class="pilcrow">¶</a></p>
 </dd>
           <dd class="break"></dd>
 </dl>
@@ -1536,65 +1573,107 @@ sections may also be included but is not required.<a href="#section-6.2.1-1.8.1"
             </ul>
 </section>
 </div>
-<div id="dig-method">
+<div id="dbv1-method">
 <section id="section-6.2.2.2">
-            <h5 id="name-dig-method">
-<a href="#section-6.2.2.2" class="section-number selfRef">6.2.2.2. </a><a href="#name-dig-method" class="section-name selfRef">"dig" Method</a>
+            <h5 id="name-dbv1-method">
+<a href="#section-6.2.2.2" class="section-number selfRef">6.2.2.2. </a><a href="#name-dbv1-method" class="section-name selfRef">"dbv1" Method</a>
             </h5>
 <ul class="normal">
 <li class="normal" id="section-6.2.2.2-1.1">
-                <p id="section-6.2.2.2-1.1.1">Identity Verification Method Name: dig<a href="#section-6.2.2.2-1.1.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.2-1.1.1">Identity Verification Method Name: dbv1<a href="#section-6.2.2.2-1.1.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.2-1.2">
-                <p id="section-6.2.2.2-1.2.1">Identity Verification Method Description: Digital ID Document Verification<a href="#section-6.2.2.2-1.2.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.2-1.2.1">Identity Verification Method Description: Database Verification of PII One Source<a href="#section-6.2.2.2-1.2.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.2-1.3">
                 <p id="section-6.2.2.2-1.3.1">Change Controller: IETF<a href="#section-6.2.2.2-1.3.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.2-1.4">
-                <p id="section-6.2.2.2-1.4.1">Reference: (#digMethod) of this specification<a href="#section-6.2.2.2-1.4.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.2-1.4.1">Reference: (#dbv1Method) of this specification<a href="#section-6.2.2.2-1.4.1" class="pilcrow">¶</a></p>
 </li>
             </ul>
 </section>
 </div>
-<div id="phy-method">
+<div id="dbvm-method">
 <section id="section-6.2.2.3">
-            <h5 id="name-phy-method">
-<a href="#section-6.2.2.3" class="section-number selfRef">6.2.2.3. </a><a href="#name-phy-method" class="section-name selfRef">"phy" Method</a>
+            <h5 id="name-dbvm-method">
+<a href="#section-6.2.2.3" class="section-number selfRef">6.2.2.3. </a><a href="#name-dbvm-method" class="section-name selfRef">"dbvm" Method</a>
             </h5>
 <ul class="normal">
 <li class="normal" id="section-6.2.2.3-1.1">
-                <p id="section-6.2.2.3-1.1.1">Identity Verification Method Name: phy<a href="#section-6.2.2.3-1.1.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.3-1.1.1">Identity Verification Method Name: dbvm<a href="#section-6.2.2.3-1.1.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.3-1.2">
-                <p id="section-6.2.2.3-1.2.1">Identity Verification Method Description: Physical ID Document Verification<a href="#section-6.2.2.3-1.2.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.3-1.2.1">Identity Verification Method Description: Database Verification of PII Multiple Sources<a href="#section-6.2.2.3-1.2.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.3-1.3">
                 <p id="section-6.2.2.3-1.3.1">Change Controller: IETF<a href="#section-6.2.2.3-1.3.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.3-1.4">
-                <p id="section-6.2.2.3-1.4.1">Reference: (#phyMethod) of this specification<a href="#section-6.2.2.3-1.4.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.3-1.4.1">Reference: (#dbvmMethod) of this specification<a href="#section-6.2.2.3-1.4.1" class="pilcrow">¶</a></p>
 </li>
             </ul>
 </section>
 </div>
-<div id="sec-method">
+<div id="dig-method">
 <section id="section-6.2.2.4">
-            <h5 id="name-sec-method">
-<a href="#section-6.2.2.4" class="section-number selfRef">6.2.2.4. </a><a href="#name-sec-method" class="section-name selfRef">"sec" Method</a>
+            <h5 id="name-dig-method">
+<a href="#section-6.2.2.4" class="section-number selfRef">6.2.2.4. </a><a href="#name-dig-method" class="section-name selfRef">"dig" Method</a>
             </h5>
 <ul class="normal">
 <li class="normal" id="section-6.2.2.4-1.1">
-                <p id="section-6.2.2.4-1.1.1">Identity Verification Method Name: sec<a href="#section-6.2.2.4-1.1.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.4-1.1.1">Identity Verification Method Name: dig<a href="#section-6.2.2.4-1.1.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.4-1.2">
-                <p id="section-6.2.2.4-1.2.1">Identity Verification Method Description: Secondary Document Verification<a href="#section-6.2.2.4-1.2.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.4-1.2.1">Identity Verification Method Description: Digital ID Document Verification<a href="#section-6.2.2.4-1.2.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.4-1.3">
                 <p id="section-6.2.2.4-1.3.1">Change Controller: IETF<a href="#section-6.2.2.4-1.3.1" class="pilcrow">¶</a></p>
 </li>
               <li class="normal" id="section-6.2.2.4-1.4">
-                <p id="section-6.2.2.4-1.4.1">Reference: (#secMethod) of this specification<a href="#section-6.2.2.4-1.4.1" class="pilcrow">¶</a></p>
+                <p id="section-6.2.2.4-1.4.1">Reference: (#digMethod) of this specification<a href="#section-6.2.2.4-1.4.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</section>
+</div>
+<div id="phy-method">
+<section id="section-6.2.2.5">
+            <h5 id="name-phy-method">
+<a href="#section-6.2.2.5" class="section-number selfRef">6.2.2.5. </a><a href="#name-phy-method" class="section-name selfRef">"phy" Method</a>
+            </h5>
+<ul class="normal">
+<li class="normal" id="section-6.2.2.5-1.1">
+                <p id="section-6.2.2.5-1.1.1">Identity Verification Method Name: phy<a href="#section-6.2.2.5-1.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.5-1.2">
+                <p id="section-6.2.2.5-1.2.1">Identity Verification Method Description: Physical ID Document Verification<a href="#section-6.2.2.5-1.2.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.5-1.3">
+                <p id="section-6.2.2.5-1.3.1">Change Controller: IETF<a href="#section-6.2.2.5-1.3.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.5-1.4">
+                <p id="section-6.2.2.5-1.4.1">Reference: (#phyMethod) of this specification<a href="#section-6.2.2.5-1.4.1" class="pilcrow">¶</a></p>
+</li>
+            </ul>
+</section>
+</div>
+<div id="sec-method">
+<section id="section-6.2.2.6">
+            <h5 id="name-sec-method">
+<a href="#section-6.2.2.6" class="section-number selfRef">6.2.2.6. </a><a href="#name-sec-method" class="section-name selfRef">"sec" Method</a>
+            </h5>
+<ul class="normal">
+<li class="normal" id="section-6.2.2.6-1.1">
+                <p id="section-6.2.2.6-1.1.1">Identity Verification Method Name: sec<a href="#section-6.2.2.6-1.1.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.6-1.2">
+                <p id="section-6.2.2.6-1.2.1">Identity Verification Method Description: Secondary Document Verification<a href="#section-6.2.2.6-1.2.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.6-1.3">
+                <p id="section-6.2.2.6-1.3.1">Change Controller: IETF<a href="#section-6.2.2.6-1.3.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="normal" id="section-6.2.2.6-1.4">
+                <p id="section-6.2.2.6-1.4.1">Reference: (#secMethod) of this specification<a href="#section-6.2.2.6-1.4.1" class="pilcrow">¶</a></p>
 </li>
             </ul>
 </section>

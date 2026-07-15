@@ -74,9 +74,12 @@ Table of Contents
      3.1.  "ivm" (Identity Verification Methods) Claim
      3.2.  Identity Verification Method Values
        3.2.1.  "dbv" (Database Verification of PII) Method
-       3.2.2.  "dig" (Digital ID Document Verification) Method
-       3.2.3.  "phy" (Physical ID Document Verification) Method
-       3.2.4.  "sec" (Secondary Document Verification) Method
+       3.2.2.  "dbv1" (Database Verification of PII One Source) Method
+       3.2.3.  "dbvm" (Database Verification of PII Multiple Sources)
+               Method
+       3.2.4.  "dig" (Digital ID Document Verification) Method
+       3.2.5.  "phy" (Physical ID Document Verification) Method
+       3.2.6.  "sec" (Secondary Document Verification) Method
    4.  Security Considerations
    5.  Privacy Considerations
    6.  IANA Considerations
@@ -142,20 +145,31 @@ Table of Contents
 
 3.2.1.  "dbv" (Database Verification of PII) Method
 
-   dbv:  Database Verification of PII (match of name/address/dob/ssn/nid
-      etc. in consumer reporting data sources)
+   dbv:  Database Verification of PII (match of name/address/dob/ssn/
+      nid, etc.) using an unspecified number of consumer reporting data
+      sources
 
-3.2.2.  "dig" (Digital ID Document Verification) Method
+3.2.2.  "dbv1" (Database Verification of PII One Source) Method
+
+   dbv1:  Database Verification of PII (match of name/address/dob/ssn/
+      nid, etc.) using one consumer reporting data source
+
+3.2.3.  "dbvm" (Database Verification of PII Multiple Sources) Method
+
+   dbvm:  Database Verification of PII (match of name/address/dob/ssn/
+      nid, etc.) using Multiple consumer reporting data sources
+
+3.2.4.  "dig" (Digital ID Document Verification) Method
 
    dig:  Digital ID Document Verification (for example Mobile Driver's
       Licenses)
 
-3.2.3.  "phy" (Physical ID Document Verification) Method
+3.2.5.  "phy" (Physical ID Document Verification) Method
 
    phy:  Physical ID Document Verification (for example via a real time
       capture of the front and back of DL or Passport photo page)
 
-3.2.4.  "sec" (Secondary Document Verification) Method
+3.2.6.  "sec" (Secondary Document Verification) Method
 
    sec:  Secondary Document Verification (for example via bank
       statements, financial statements, utility bills, government-issued
@@ -275,7 +289,29 @@ Table of Contents
 
    *  Reference: (#dbvMethod) of this specification
 
-6.2.2.2.  "dig" Method
+6.2.2.2.  "dbv1" Method
+
+   *  Identity Verification Method Name: dbv1
+
+   *  Identity Verification Method Description: Database Verification of
+      PII One Source
+
+   *  Change Controller: IETF
+
+   *  Reference: (#dbv1Method) of this specification
+
+6.2.2.3.  "dbvm" Method
+
+   *  Identity Verification Method Name: dbvm
+
+   *  Identity Verification Method Description: Database Verification of
+      PII Multiple Sources
+
+   *  Change Controller: IETF
+
+   *  Reference: (#dbvmMethod) of this specification
+
+6.2.2.4.  "dig" Method
 
    *  Identity Verification Method Name: dig
 
@@ -286,7 +322,7 @@ Table of Contents
 
    *  Reference: (#digMethod) of this specification
 
-6.2.2.3.  "phy" Method
+6.2.2.5.  "phy" Method
 
    *  Identity Verification Method Name: phy
 
@@ -297,7 +333,7 @@ Table of Contents
 
    *  Reference: (#phyMethod) of this specification
 
-6.2.2.4.  "sec" Method
+6.2.2.6.  "sec" Method
 
    *  Identity Verification Method Name: sec
 
