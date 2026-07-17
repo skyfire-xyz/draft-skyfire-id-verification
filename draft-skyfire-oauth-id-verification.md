@@ -121,7 +121,7 @@ For instance, values might indicate that both
 physical document verification and database PII verification methods were used.
 Values used in the "ivm" claim SHOULD be from those registered in the
 IANA "Identity Verification Methods" registry
-established by (#ivmRegistry);
+established by {{ivmRegistry}};
 parties using this claim will need to agree upon the meanings of
 any unregistered values used, which may be context specific.
 
@@ -201,7 +201,7 @@ established by {{RFC7519}}.
 * Claim Name: ivm
 * Claim Description: Identity Verification Methods
 * Change Controller: Michael B. Jones - michael_b_jones@hotmail.com
-* Reference: (#ivmClaim) of this specification
+* Reference: {{ivmClaim}} of this specification
 
 ## Identity Verification Methods Registry {#ivmRegistry}
 
@@ -210,7 +210,7 @@ for `ivm` claim array element values.
 The registry records the Identity Verification Method value
 and a reference to the specification that defines it.
 This specification registers the Identity Verification Method values
-defined in (#ivmValues).
+defined in {{ivmValues}}.
 
 Values are registered on an Expert Review
 {{RFC5226}} basis after a three-week review period on the &lt;jwt-reg-review@ietf.org&gt; mailing
@@ -287,56 +287,56 @@ Specification Document(s):
 * Identity Verification Method Name: dbv
 * Identity Verification Method Description: Database Verification of PII
 * Change Controller: IETF
-* Reference: (#dbvMethod) of this specification
+* Reference: {{dbvMethod}} of this specification
 
 #### "dbv1" Method
 
 * Identity Verification Method Name: dbv1
 * Identity Verification Method Description: Database Verification of PII One Source
 * Change Controller: IETF
-* Reference: (#dbv1Method) of this specification
+* Reference: {{dbv1Method}} of this specification
 
 #### "dbvm" Method
 
 * Identity Verification Method Name: dbvm
 * Identity Verification Method Description: Database Verification of PII Multiple Sources
 * Change Controller: IETF
-* Reference: (#dbvmMethod) of this specification
+* Reference: {{dbvmMethod}} of this specification
 
 #### "dig" Method
 
 * Identity Verification Method Name: dig
 * Identity Verification Method Description: Digital ID Document Verification
 * Change Controller: IETF
-* Reference: (#digMethod) of this specification
+* Reference: {{digMethod}} of this specification
 
 #### "phy" Method
 
 * Identity Verification Method Name: phy
 * Identity Verification Method Description: Physical ID Document Verification
 * Change Controller: IETF
-* Reference: (#phyMethod) of this specification
+* Reference: {{phyMethod}} of this specification
 
 #### "sec" Method
 
 * Identity Verification Method Name: sec
 * Identity Verification Method Description: Secondary Document Verification
 * Change Controller: IETF
-* Reference: (#secMethod) of this specification
+* Reference: {{secMethod}} of this specification
 
 ### "inp" Method
 
 * Identity Verification Method Reference Name: inp
 * Identity Verification Method Reference Description: In-person Verification
 * Change Controller: IETF
-* Specification Document(s): (#inpMethod) of this specification
+* Specification Document(s): {{inpMethod}} of this specification
 
 ### "vid" Method
 
 * Identity Verification Method Reference Name: vid
 * Identity Verification Method Reference Description: Video Verification
 * Change Controller: IETF
-* Specification Document(s): (#vidMethod) of this specification
+* Specification Document(s): {{vidMethod}} of this specification
 
 
 --- back
