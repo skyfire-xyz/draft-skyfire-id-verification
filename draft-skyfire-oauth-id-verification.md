@@ -324,14 +324,14 @@ Specification Document(s):
 * Change Controller: IETF
 * Reference: {{secMethod}} of this specification
 
-### "inp" Method
+#### "inp" Method
 
 * Identity Verification Method Reference Name: inp
 * Identity Verification Method Reference Description: In-person Verification
 * Change Controller: IETF
 * Specification Document(s): {{inpMethod}} of this specification
 
-### "vid" Method
+#### "vid" Method
 
 * Identity Verification Method Reference Name: vid
 * Identity Verification Method Reference Description: Video Verification
