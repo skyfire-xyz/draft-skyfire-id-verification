@@ -352,6 +352,7 @@ Specification Document(s):
 -01
 
 * Added "dbv1", "dbvm", "inp", and "vid" methods.
+* Added Nash Ali and Srinivasa Thumma as authors.
 
 -00
 
