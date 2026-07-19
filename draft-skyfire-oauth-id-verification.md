@@ -166,12 +166,12 @@ phy:
 sec:
 : Secondary Document Verification (for example via bank statements, financial statements, utility bills, government-issued papers, etc.)
 
-## "inp" (In-person Verification) Method {#inpMethod}
+### "inp" (In-person Verification) Method {#inpMethod}
 
 inp:
 : In-person Verification
 
-## "vid" (Video Verification) Method {#vidMethod}
+### "vid" (Video Verification) Method {#vidMethod}
 
 vid:
 : Video Verification (live video interview)
@@ -348,6 +348,10 @@ Specification Document(s):
 {: numbered="false"}
 
 [[ to be removed by the RFC Editor before publication as an RFC ]]
+
+-01
+
+* Added "dbv1", "dbvm", "inp", and "vid" methods.
 
 -00
 
