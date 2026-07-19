@@ -429,6 +429,8 @@ Document History
 
    *  Added "dbv1", "dbvm", "inp", and "vid" methods.
 
+   *  Added Nash Ali and Srinivasa Thumma as authors.
+
    -00
 
    *  Initial draft.
